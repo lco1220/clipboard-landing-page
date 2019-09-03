@@ -3,8 +3,8 @@ $font-family: 'Bai Jamjuree', sans-serif;
 $font-weight-400: 400;
 $font-weight-600: 600;
 // Primary
-$strongcyan: hsl(171, 66%, 44%);
-$lightblue: hsl(233, 100%, 69%);
+$strongcyan: hsl(171, 66%, 46%);
+$lightblue: hsl(233, 100%, 71%);
 // Neutral
 $grayishblue: hsl(201, 11%, 66%);
 $darkgrayishblue: hsl(210, 10%, 33%);
@@ -25,6 +25,83 @@ body {
   font-family: $font-family;
   font-size: $font-size;
   font-weight: $font-weight-400;
+}
+
+#main {
+  position: relative;
+}
+
+#hero {
+  background-image: url('../images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+
+  .hero-content {
+    position: absolute;
+    top: 18%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .hero-img {
+      margin-bottom: 50px;
+    }
+
+    .hero-text {
+      text-align: center;
+      width: 50%;
+
+      h1 {
+        color: $darkgrayishblue;
+        font-size: 40px;
+        font-weight: $font-weight-600;
+        margin-bottom: 24px;
+      }
+
+      p {
+        color: $grayishblue;
+        font-size: 19px;
+        line-height: 26px;
+        margin-bottom: 50px;
+      }
+    }
+
+    .hero-btn {
+
+      a{
+        text-decoration: none;
+        color: #fff;
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-weight: $font-weight-600;
+        cursor: pointer;
+
+        &:first-child {
+          background-color: $strongcyan;
+          margin-right: 10px;
+          border-color: $strongcyan;
+          box-shadow: 0px 3px 2px 1px hsl(171, 66%, 44%);
+        }
+
+        &:last-child {
+          background-color: $lightblue;
+          border-color: $lightblue;
+          box-shadow: 0px 3px 2px 1px hsl(233, 100%, 69%);
+        }
+
+      }
+      
+    
+
+    }
+
+  }
+
 }
 
 footer {
