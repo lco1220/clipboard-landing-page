@@ -1,11 +1,19 @@
+$font-size: 18px;
+$font-family: 'Bai Jamjuree', sans-serif;
+$font-weight-400: 400;
+$font-weight-600: 600;
+// Primary
+$strongcyan: hsl(171, 66%, 44%);
+$lightblue: hsl(233, 100%, 69%);
+// Neutral
+$grayishblue: hsl(201, 11%, 66%);
+$darkgrayishblue: hsl(210, 10%, 33%);
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
-$font-size: 18px;
-$grayishblue: hsl(201, 11%, 66%);
 
 body, 
 html {
@@ -14,7 +22,9 @@ html {
 }
 
 body {
+  font-family: $font-family;
   font-size: $font-size;
+  font-weight: $font-weight-400;
 }
 
 footer {
