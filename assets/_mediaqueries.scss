@@ -171,7 +171,37 @@
 
     }
 
+}
+
+#access-clipboard {
+
+  .ac-container {
+
+    .ac-text {
+      width: 100%;
+      padding: 0 40px 50px;
+
+      h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 15px;
+        line-height: 24px; 
+      }
+    }
+
+    .ac-img {
+      width: 100%;
+      padding: 0 20px;
+
+      img{
+        width: 100%;
+      }
+    }
   }
+}
 
 }
 
