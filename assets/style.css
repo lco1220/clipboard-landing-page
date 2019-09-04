@@ -358,8 +358,8 @@ ul {
 #logo-container .logo-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -574,6 +574,25 @@ footer {
   #supercharge .sc-container .sc-grid .sc-card .card-container p {
     font-size: 15px;
     line-height: 24px;
+  }
+  #logo-container .logo-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  #logo-container .logo-grid img {
+    height: 40px;
+  }
+  #logo-container .logo-grid img:nth-child(3) {
+    height: 30px;
+  }
+  #logo-container .logo-grid img:nth-child(4) {
+    width: 115px;
+    height: 45px;
+  }
+  #logo-container .logo-grid img:nth-child(5) {
+    width: 95px;
+    height: 23px;
   }
 }
 /*# sourceMappingURL=style.css.map */

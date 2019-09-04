@@ -252,5 +252,31 @@
     }
   }
 
+  #logo-container {
+    .logo-grid {
+      grid-template-columns: 1fr;
+      grid-gap: 50px;
+
+      img {
+        height: 40px;
+
+        &:nth-child(3) {
+          height: 30px;
+        }
+
+        &:nth-child(4) {
+          width: 115px;
+          height: 45px;
+        }
+
+        &:nth-child(5) {
+          width: 95px;
+          height: 23px;
+        }
+
+      }
+    }
+  }
+
 }
 
