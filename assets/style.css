@@ -15,6 +15,11 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
 }
 
 #main {
@@ -27,7 +32,8 @@ body {
   background-size: auto;
   position: relative;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+  margin-bottom: 50px;
 }
 
 #hero .hero-content {
@@ -45,6 +51,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
 }
 
 #hero .hero-content .hero-img {
@@ -54,6 +63,7 @@ body {
 #hero .hero-content .hero-text {
   text-align: center;
   width: 50%;
+  margin-bottom: 70px;
 }
 
 #hero .hero-content .hero-text h1 {
@@ -67,7 +77,6 @@ body {
   color: #9fabb2;
   font-size: 19px;
   line-height: 26px;
-  margin-bottom: 50px;
 }
 
 #hero .hero-content .hero-btn a {
@@ -94,7 +103,100 @@ body {
           box-shadow: 0px 3px 2px 1px #6173ff;
 }
 
+#track-snippets {
+  position: relative;
+  height: auto;
+  width: 100vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#track-snippets .ts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#track-snippets .ts-container .ts-text {
+  text-align: center;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+#track-snippets .ts-container .ts-text h1 {
+  color: #4c545d;
+  font-size: 37px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+#track-snippets .ts-container .ts-text p {
+  color: #9fabb2;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+#track-snippets .ts-container .ts-grid {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  left: -30px;
+}
+
+#track-snippets .ts-container .ts-grid .ts-list {
+  padding-left: 50px;
+  padding-right: 135px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: auto;
+}
+
+#track-snippets .ts-container .ts-grid .ts-list ul {
+  width: auto;
+}
+
+#track-snippets .ts-container .ts-grid .ts-list ul li {
+  margin-bottom: 43px;
+}
+
+#track-snippets .ts-container .ts-grid .ts-list ul li h3 {
+  color: #4c545d;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#track-snippets .ts-container .ts-grid .ts-list ul li p {
+  color: #9fabb2;
+  font-size: 18px;
+  line-height: 26px;
+}
+
 footer {
   background-color: #9fabb2;
+}
+
+/* Extra small devices (portrait phones, less than 1024px) */
+@media (max-width: 1024px) {
+  #track-snippets {
+    margin-top: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
