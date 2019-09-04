@@ -483,7 +483,7 @@ footer {
   #track-snippets .ts-container .ts-grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-gap: 40px;
+    grid-gap: 50px;
     padding: 0 40px;
     left: 0px;
   }
@@ -493,7 +493,7 @@ footer {
     text-align: center;
   }
   #track-snippets .ts-container .ts-grid .ts-list ul li h3 {
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 10px;
   }
   #track-snippets .ts-container .ts-grid .ts-list ul li p {
@@ -521,6 +521,41 @@ footer {
   }
   #access-clipboard .ac-container .ac-img img {
     width: 100%;
+  }
+  #supercharge .sc-container {
+    padding: 30px 0 0;
+  }
+  #supercharge .sc-container .sc-text {
+    width: 100%;
+    padding: 0 40px 70px;
+  }
+  #supercharge .sc-container .sc-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #supercharge .sc-container .sc-text p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #supercharge .sc-container .sc-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 50px;
+    padding: 0;
+  }
+  #supercharge .sc-container .sc-grid .sc-card {
+    width: 100%;
+  }
+  #supercharge .sc-container .sc-grid .sc-card .card-container {
+    padding: 0 26px;
+  }
+  #supercharge .sc-container .sc-grid .sc-card .card-container h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  #supercharge .sc-container .sc-grid .sc-card .card-container p {
+    font-size: 15px;
+    line-height: 24px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -62,146 +62,195 @@
 /* Extra small devices (portrait phones, less than 375px) */
 @media (max-width:375px) {
 
-#hero {
-  background-image: url('../images/bg-header-mobile.png');
-  
-  .hero-content {
-    position: absolute;
-    top: 15%;
-  
-    .hero-text {
-      @include flex(column,center,center);
-      width: 100%;
-      padding: 0 40px;
-      margin-bottom: 50px;
-  
-      h1 {
-        font-size: 30px;
-        margin-bottom: 24px;
-      }
-  
-      p {
-        font-size: 15px;
-        line-height: 24px;
-      }
-    }
-  
-    .hero-btn {
-      width: 100%;
-      padding: 0 40px;
-
-      a{
+  #hero {
+    background-image: url('../images/bg-header-mobile.png');
+    
+    .hero-content {
+      position: absolute;
+      top: 15%;
+    
+      .hero-text {
         @include flex(column,center,center);
-        font-size: 15px;
-        width: auto;
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 50px;
+    
+        h1 {
+          font-size: 30px;
+          margin-bottom: 24px;
+        }
+    
+        p {
+          font-size: 15px;
+          line-height: 24px;
+        }
+      }
+    
+      .hero-btn {
+        width: 100%;
+        padding: 0 40px;
 
-        &:first-child {
-          margin: 0 0 35px;
+        a{
+          @include flex(column,center,center);
+          font-size: 15px;
+          width: auto;
+
+          &:first-child {
+            margin: 0 0 35px;
+          }
+
+        }
+    
+      }
+    
+    }
+    
+  }
+
+  #main-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    section {
+      margin-bottom: 45px;
+    }
+
+  }
+
+  #track-snippets {
+
+    .ts-container {
+
+      .ts-text {
+        padding: 0 40px;
+        width: 100%;
+
+        h1 {
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 15px;
+          line-height: 24px; 
         }
 
       }
-  
-    }
-  
-  }
-  
-}
 
-#main-content {
-  margin-top: 100px;
-  margin-bottom: 100px;
+      .ts-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        padding: 0 40px;
+        left: 0px;
 
-  section {
-    margin-bottom: 45px;
-  }
+        .ts-list {
+          width: 100%;
+          padding: 0;
+          text-align: center;
 
-}
+          ul {
 
-#track-snippets {
+            li {
 
-  .ts-container {
+              h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+              }
 
-    .ts-text {
-      padding: 0 40px;
-      width: 100%;
-
-      h1 {
-        font-size: 30px;
-        margin-bottom: 20px;
-      }
-
-      p {
-        font-size: 15px;
-        line-height: 24px; 
-      }
-
-    }
-
-    .ts-grid {
-      grid-template-columns: 1fr;
-      grid-gap: 40px;
-      padding: 0 40px;
-      left: 0px;
-
-      .ts-list {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-
-        ul {
-
-          li {
-
-            h3 {
-              font-size: 25px;
-              margin-bottom: 10px;
+              p {
+                font-size: 16px;
+                line-height: 24px;
+              }
             }
 
-            p {
-              font-size: 16px;
-              line-height: 24px;
-            }
           }
 
         }
 
       }
 
-    }
-
-    }
-
-}
-
-#access-clipboard {
-
-  .ac-container {
-    padding: 50px 0;
-    .ac-text {
-      width: 100%;
-      padding: 0 40px 50px;
-
-      h1 {
-        font-size: 30px;
-        margin-bottom: 20px;
       }
 
-      p {
-        font-size: 15px;
-        line-height: 24px; 
-      }
-    }
+  }
 
-    .ac-img {
-      width: 100%;
-      padding: 0 20px;
+  #access-clipboard {
 
-      img{
+    .ac-container {
+      padding: 50px 0;
+      .ac-text {
         width: 100%;
+        padding: 0 40px 50px;
+
+        h1 {
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 15px;
+          line-height: 24px; 
+        }
+      }
+
+      .ac-img {
+        width: 100%;
+        padding: 0 20px;
+
+        img{
+          width: 100%;
+        }
       }
     }
   }
-}
+
+  #supercharge {
+
+    .sc-container {
+      padding: 30px 0 0;
+
+      .sc-text {
+        width: 100%;
+        padding: 0 40px 70px;
+
+        h1 {
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 15px;
+          line-height: 24px; 
+        }
+
+      }
+
+      .sc-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        padding: 0;
+        
+        .sc-card {
+          width: 100%;
+
+          .card-container {
+            padding: 0 26px;
+
+            h3 {
+              font-size: 22px;
+              margin-bottom: 10px;
+            }
+
+            p {
+              font-size: 15px;
+              line-height: 24px;
+            }
+
+          }
+
+        }
+      }
+    }
+  }
 
 }
 
