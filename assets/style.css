@@ -109,7 +109,7 @@ ul {
 }
 
 #main-content section {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 #track-snippets {
@@ -225,7 +225,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 50px 0;
+  padding: 50px 0 0;
 }
 
 #access-clipboard .ac-container .ac-text {
@@ -252,6 +252,100 @@ ul {
 
 #access-clipboard .ac-container .ac-img {
   padding-top: 20px;
+}
+
+#supercharge {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+#supercharge .sc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 40px 0;
+}
+
+#supercharge .sc-container .sc-text {
+  text-align: center;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: 70px;
+}
+
+#supercharge .sc-container .sc-text h1 {
+  color: #4c545d;
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+#supercharge .sc-container .sc-text p {
+  color: #9fabb2;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#supercharge .sc-container .sc-grid {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 0 40px;
+}
+
+#supercharge .sc-container .sc-grid .sc-card {
+  width: 400px;
+}
+
+#supercharge .sc-container .sc-grid .sc-card .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+#supercharge .sc-container .sc-grid .sc-card .card-container img {
+  margin-bottom: 35px;
+  height: 30px;
+}
+
+#supercharge .sc-container .sc-grid .sc-card .card-container h3 {
+  color: #4c545d;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#supercharge .sc-container .sc-grid .sc-card .card-container p {
+  color: #9fabb2;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 footer {
@@ -405,6 +499,9 @@ footer {
   #track-snippets .ts-container .ts-grid .ts-list ul li p {
     font-size: 16px;
     line-height: 24px;
+  }
+  #access-clipboard .ac-container {
+    padding: 50px 0;
   }
   #access-clipboard .ac-container .ac-text {
     width: 100%;

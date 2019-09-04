@@ -103,7 +103,7 @@ ul {
   margin-bottom: 100px;
 
   section {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
 }
@@ -197,7 +197,7 @@ ul {
 
   .ac-container {
     @include flex(column,center,center);
-    padding: 50px 0;
+    padding: 50px 0 0;
 
     .ac-text {
       text-align: center;
@@ -221,6 +221,77 @@ ul {
 
     .ac-img {
       padding-top: 20px;
+    }
+
+  }
+
+}
+
+#supercharge {
+  position: relative;
+  height: auto;
+  width: 100%;
+
+  .sc-container {
+    @include flex(column,center,center);
+    padding: 30px 40px 0;
+
+    .sc-text {
+      text-align: center;
+      width: 50%;
+      align-self: center;
+      padding-bottom: 70px;
+
+      h1 {
+        color: $darkgrayishblue;
+        font-size: 34px;
+        font-weight: $font-weight-600;
+        margin-bottom: 24px;
+      }
+
+      p {
+        color: $grayishblue;
+        font-size: 16px;
+        line-height: 26px; 
+      }
+    }
+
+    .sc-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      padding: 0 40px;
+
+      .sc-card {
+        width: 400px;
+
+        .card-container {
+        @include flex(column,center,center);
+        text-align: center;
+
+          img {
+            margin-bottom: 35px;
+            height: 30px;
+          }
+
+          h3 {
+            color: $darkgrayishblue;
+            font-size: 22px;
+            font-weight: $font-weight-600;
+            margin-bottom: 15px;
+          }
+
+          p {
+            color: $grayishblue;
+            font-size: 18px;
+            line-height: 26px;
+          }
+
+        }
+
+      }
+
     }
 
   }
