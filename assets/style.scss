@@ -298,6 +298,21 @@ ul {
 
 }
 
+#logo-container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 60px 40px 0;
+
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+
+}
+
 footer {
   background-color: $grayishblue;
 }

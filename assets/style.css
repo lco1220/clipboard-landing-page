@@ -348,6 +348,24 @@ ul {
   line-height: 26px;
 }
 
+#logo-container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 60px 40px 0;
+}
+
+#logo-container .logo-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 footer {
   background-color: #9fabb2;
 }
