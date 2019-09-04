@@ -298,7 +298,7 @@ ul {
 
 }
 
-#logo-container {
+#logo-group {
   position: relative;
   height: auto;
   width: 100%;
@@ -309,6 +309,63 @@ ul {
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     align-items: center;
+  }
+}
+
+#ios-mac {
+  position: relative;
+  height: auto;
+  width: 100%;
+
+  .imac-container {
+    @include flex(column,center,center);
+    padding: 60px 40px 0;
+
+    .imac-text {
+      text-align: center;
+      width: 50%;
+      margin-bottom: 36px;
+
+      h1 {
+        color: $darkgrayishblue;
+        font-size: 34px;
+        font-weight: $font-weight-600;
+        margin-bottom: 24px;
+      }
+
+      p {
+        color: $grayishblue;
+        font-size: 13px;
+        line-height: 26px; 
+      }
+    }
+
+    .imac-btn {
+      a{
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: $font-weight-600;
+        cursor: pointer;
+
+        &:first-child {
+          background-color: $strongcyan;
+          margin-right: 10px;
+          border-color: $strongcyan;
+          box-shadow: 0px 3px 2px 1px hsl(171, 66%, 44%);
+        }
+
+        &:last-child {
+          background-color: $lightblue;
+          border-color: $lightblue;
+          box-shadow: 0px 3px 2px 1px hsl(233, 100%, 69%);
+        }
+
+      }
+    }
+
   }
 
 }
