@@ -104,15 +104,18 @@ ul {
 }
 
 #main-content {
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#main-content section {
   margin-bottom: 100px;
 }
 
 #track-snippets {
   position: relative;
   height: auto;
-  width: 100vw;
-  margin-bottom: 50px;
+  width: 100%;
 }
 
 #track-snippets .ts-container {
@@ -143,7 +146,7 @@ ul {
 
 #track-snippets .ts-container .ts-text h1 {
   color: #4c545d;
-  font-size: 37px;
+  font-size: 34px;
   font-weight: 600;
   margin-bottom: 24px;
 }
@@ -201,6 +204,55 @@ ul {
   line-height: 26px;
 }
 
+#access-clipboard {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+#access-clipboard .ac-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0;
+}
+
+#access-clipboard .ac-container .ac-text {
+  text-align: center;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: 70px;
+}
+
+#access-clipboard .ac-container .ac-text h1 {
+  color: #4c545d;
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+#access-clipboard .ac-container .ac-text p {
+  color: #9fabb2;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#access-clipboard .ac-container .ac-img {
+  padding-top: 20px;
+}
+
 footer {
   background-color: #9fabb2;
 }
@@ -255,6 +307,7 @@ footer {
   }
 }
 
+/* Extra small devices (portrait phones, less than 375px) */
 @media (max-width: 375px) {
   #hero {
     background-image: url("../images/bg-header-mobile.png");
