@@ -415,6 +415,17 @@ footer {
       }
     }
 
+    .attribution {
+      text-align: center;
+      padding-top: 30px;
+      font-size: 12px;
+      color: $grayishblue;
+      a {
+        color:$darkgrayishblue;
+        text-decoration: none;
+      }
+    }
+
   }
 
 }

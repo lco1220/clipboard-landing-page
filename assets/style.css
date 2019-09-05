@@ -490,6 +490,18 @@ footer .footer-container .footer-grid .footer-socials ion-icon {
   height: 25px;
 }
 
+footer .footer-container .attribution {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 12px;
+  color: #9fabb2;
+}
+
+footer .footer-container .attribution a {
+  color: #4c545d;
+  text-decoration: none;
+}
+
 /* Extra small devices (portrait phones, less than 1024px) */
 @media (max-width: 1024px) {
   #track-snippets {
