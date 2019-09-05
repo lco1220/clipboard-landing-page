@@ -278,5 +278,43 @@
     }
   }
 
+  #ios-mac {
+    .imac-container {
+      padding: 80px 35px 0;
+      margin-bottom: 50px;
+
+      .imac-text {
+        width: 100%;
+
+        h1 {
+          font-size: 24px;
+          margin-bottom: 22px;
+        }
+    
+        p {
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+
+      .imac-btn {
+        width: 100%;
+
+        a {
+          @include flex(column,center,center);
+          font-size: 17px;
+          padding: 18px 35px 14px;
+          width: auto;
+
+          &:first-child {
+            margin-bottom: 27px;
+          }
+        }
+
+      }
+
+    }
+  }
+
 }
 
