@@ -33,7 +33,7 @@ ul {
   position: relative;
   height: 100vh;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #hero .hero-content {
@@ -61,9 +61,22 @@ ul {
 }
 
 #hero .hero-content .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  width: 50%;
   margin-bottom: 70px;
+  width: auto;
 }
 
 #hero .hero-content .hero-text h1 {
@@ -504,35 +517,67 @@ footer .footer-container .attribution a {
 
 /* Extra small devices (portrait phones, less than 1024px) */
 @media (max-width: 1024px) {
+  #hero {
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 165px;
+  }
+  #hero .hero-content .hero-img {
+    width: 110px;
+    height: 110px;
+  }
+  #hero .hero-content .hero-img img {
+    width: 100%;
+    height: 100%;
+  }
+  #hero .hero-content .hero-text {
+    width: 65%;
+  }
+  #main-content {
+    padding: 0 35px;
+  }
   #track-snippets {
     margin-top: 50px;
   }
-  #track-snippets .ts-container .ts-grid {
-    grid-gap: 25px;
-  }
-  #track-snippets .ts-container .ts-grid .ts-text {
-    text-align: center;
-    width: 50%;
+  #track-snippets .ts-container .ts-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 65%;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
         align-self: center;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     position: relative;
   }
-  #track-snippets .ts-container .ts-grid .ts-text h1 {
+  #track-snippets .ts-container .ts-text h1 {
     color: #4c545d;
-    font-size: 20px;
+    font-size: 34px;
     font-weight: 600;
-    margin-bottom: 14px;
+    margin-bottom: 24px;
   }
-  #track-snippets .ts-container .ts-grid .ts-text p {
+  #track-snippets .ts-container .ts-text p {
     color: #9fabb2;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  #track-snippets .ts-container .ts-grid {
+    grid-gap: 25px;
+    left: -53px;
   }
   #track-snippets .ts-container .ts-grid .ts-list {
-    padding-left: 10px;
-    padding-right: 90px;
+    padding-left: 50px;
+    padding-right: 35px;
   }
   #track-snippets .ts-container .ts-grid .ts-list ul {
     width: auto;
@@ -549,6 +594,57 @@ footer .footer-container .attribution a {
     color: #9fabb2;
     font-size: 16px;
     line-height: 20px;
+  }
+  #access-clipboard .ac-container {
+    padding-top: 50px;
+  }
+  #access-clipboard .ac-container .ac-text {
+    padding-bottom: 50px;
+    width: 65%;
+  }
+  #access-clipboard .ac-container .ac-img {
+    width: 100%;
+  }
+  #access-clipboard .ac-container .ac-img img {
+    width: 100%;
+  }
+  #supercharge .sc-container {
+    padding: 30px 0 0;
+  }
+  #supercharge .sc-container .sc-text {
+    width: 65%;
+  }
+  #supercharge .sc-container .sc-grid {
+    padding: 0;
+  }
+  #supercharge .sc-container .sc-grid .sc-card {
+    width: 100%;
+  }
+  #logo-group {
+    padding: 60px 0 0;
+  }
+  #logo-group .logo-grid img {
+    height: 40px;
+  }
+  #logo-group .logo-grid img:nth-child(3) {
+    height: 30px;
+  }
+  #logo-group .logo-grid img:nth-child(4) {
+    width: 115px;
+    height: 45px;
+  }
+  #logo-group .logo-grid img:nth-child(5) {
+    width: 95px;
+    height: 23px;
+  }
+  #ios-mac .imac-container {
+    padding: 50px 0 0;
+  }
+  #ios-mac .imac-container .imac-text {
+    width: 65%;
+  }
+  footer .footer-container {
+    padding: 50px 0;
   }
 }
 
