@@ -464,6 +464,7 @@ footer .footer-container .footer-grid .footer-img img {
 }
 
 footer .footer-container .footer-grid .footer-links {
+  width: 100%;
   -ms-grid-column-align: start;
       justify-self: start;
   -ms-flex-item-align: start;
@@ -476,13 +477,12 @@ footer .footer-container .footer-grid .footer-links ul {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  width: 600px;
 }
 
 footer .footer-container .footer-grid .footer-links ul li {
   padding: 10px 0;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 footer .footer-container .footer-grid .footer-socials ion-icon {
@@ -750,6 +750,37 @@ footer .footer-container .footer-grid .footer-socials ion-icon {
   }
   #ios-mac .imac-container .imac-btn a:first-child {
     margin-bottom: 27px;
+  }
+  footer .footer-container {
+    padding-top: 70px;
+  }
+  footer .footer-container .footer-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 40px;
+    width: 100%;
+  }
+  footer .footer-container .footer-grid .footer-links {
+    text-align: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  footer .footer-container .footer-grid .footer-links ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+  }
+  footer .footer-container .footer-grid .footer-links ul li {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  footer .footer-container .footer-grid .footer-socials ion-icon {
+    width: 60px;
+    height: 33px;
   }
 }
 /*# sourceMappingURL=style.css.map */
