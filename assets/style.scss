@@ -416,14 +416,18 @@ footer {
       }
 
       .footer-socials {
-        ion-icon {
-          width: 30px;
-          height: 25px;
-          transition: color .50s ease-in;
-          &:hover {
-            color: $strongcyan;
-            cursor: pointer;
-            
+        a {
+          text-decoration: none;
+          color: $darkgrayishblue;
+          ion-icon {
+            width: 30px;
+            height: 25px;
+            transition: color .50s ease-in;
+            &:hover {
+              color: $strongcyan;
+              cursor: pointer;
+              
+            }
           }
         }
       }

@@ -505,14 +505,19 @@ footer .footer-container .footer-grid .footer-links ul li:hover {
   cursor: pointer;
 }
 
-footer .footer-container .footer-grid .footer-socials ion-icon {
+footer .footer-container .footer-grid .footer-socials a {
+  text-decoration: none;
+  color: #4c545d;
+}
+
+footer .footer-container .footer-grid .footer-socials a ion-icon {
   width: 30px;
   height: 25px;
   -webkit-transition: color .50s ease-in;
   transition: color .50s ease-in;
 }
 
-footer .footer-container .footer-grid .footer-socials ion-icon:hover {
+footer .footer-container .footer-grid .footer-socials a ion-icon:hover {
   color: #28c3ab;
   cursor: pointer;
 }
