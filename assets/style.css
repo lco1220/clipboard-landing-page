@@ -496,11 +496,25 @@ footer .footer-container .footer-grid .footer-links ul li {
   padding: 10px 0;
   font-size: 15px;
   font-weight: 400;
+  -webkit-transition: color .50s ease-in;
+  transition: color .50s ease-in;
+}
+
+footer .footer-container .footer-grid .footer-links ul li:hover {
+  color: #28c3ab;
+  cursor: pointer;
 }
 
 footer .footer-container .footer-grid .footer-socials ion-icon {
   width: 30px;
   height: 25px;
+  -webkit-transition: color .50s ease-in;
+  transition: color .50s ease-in;
+}
+
+footer .footer-container .footer-grid .footer-socials ion-icon:hover {
+  color: #28c3ab;
+  cursor: pointer;
 }
 
 footer .footer-container .attribution {
