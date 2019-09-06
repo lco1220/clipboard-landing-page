@@ -117,7 +117,7 @@ ul {
 }
 
 #main-content {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -157,7 +157,7 @@ ul {
   position: relative;
 }
 
-#track-snippets .ts-container .ts-text h1 {
+#track-snippets .ts-container .ts-text h2 {
   color: #4c545d;
   font-size: 34px;
   font-weight: 600;
@@ -250,7 +250,7 @@ ul {
   padding-bottom: 70px;
 }
 
-#access-clipboard .ac-container .ac-text h1 {
+#access-clipboard .ac-container .ac-text h2 {
   color: #4c545d;
   font-size: 34px;
   font-weight: 600;
@@ -299,7 +299,7 @@ ul {
   padding-bottom: 70px;
 }
 
-#supercharge .sc-container .sc-text h1 {
+#supercharge .sc-container .sc-text h2 {
   color: #4c545d;
   font-size: 34px;
   font-weight: 600;
@@ -408,7 +408,7 @@ ul {
   margin-bottom: 36px;
 }
 
-#ios-mac .imac-container .imac-text h1 {
+#ios-mac .imac-container .imac-text h2 {
   color: #4c545d;
   font-size: 34px;
   font-weight: 600;
@@ -579,7 +579,7 @@ footer .footer-container .attribution a {
     margin-bottom: 70px;
     position: relative;
   }
-  #track-snippets .ts-container .ts-text h1 {
+  #track-snippets .ts-container .ts-text h2 {
     color: #4c545d;
     font-size: 34px;
     font-weight: 600;
@@ -785,7 +785,7 @@ footer .footer-container .attribution a {
   #track-snippets .ts-container .ts-text {
     width: 100%;
   }
-  #track-snippets .ts-container .ts-text h1 {
+  #track-snippets .ts-container .ts-text h2 {
     font-size: 30px;
     margin-bottom: 20px;
   }
@@ -823,7 +823,7 @@ footer .footer-container .attribution a {
     width: 100%;
     padding-bottom: 50px;
   }
-  #access-clipboard .ac-container .ac-text h1 {
+  #access-clipboard .ac-container .ac-text h2 {
     font-size: 30px;
     margin-bottom: 20px;
   }
@@ -844,7 +844,7 @@ footer .footer-container .attribution a {
     width: 100%;
     padding-bottom: 70px;
   }
-  #supercharge .sc-container .sc-text h1 {
+  #supercharge .sc-container .sc-text h2 {
     font-size: 30px;
     margin-bottom: 20px;
   }
@@ -895,7 +895,7 @@ footer .footer-container .attribution a {
   #ios-mac .imac-container .imac-text {
     width: 100%;
   }
-  #ios-mac .imac-container .imac-text h1 {
+  #ios-mac .imac-container .imac-text h2 {
     font-size: 25px;
     margin-bottom: 22px;
   }
@@ -1058,7 +1058,7 @@ footer .footer-container .attribution a {
   #track-snippets .ts-container .ts-text {
     width: 100%;
   }
-  #track-snippets .ts-container .ts-text h1 {
+  #track-snippets .ts-container .ts-text h2 {
     font-size: 30px;
     margin-bottom: 20px;
   }
@@ -1096,7 +1096,7 @@ footer .footer-container .attribution a {
     width: 100%;
     padding-bottom: 50px;
   }
-  #access-clipboard .ac-container .ac-text h1 {
+  #access-clipboard .ac-container .ac-text h2 {
     font-size: 30px;
     margin-bottom: 20px;
   }
@@ -1117,7 +1117,7 @@ footer .footer-container .attribution a {
     width: 100%;
     padding-bottom: 70px;
   }
-  #supercharge .sc-container .sc-text h1 {
+  #supercharge .sc-container .sc-text h2 {
     font-size: 30px;
     margin-bottom: 20px;
   }
@@ -1171,7 +1171,7 @@ footer .footer-container .attribution a {
   #ios-mac .imac-container .imac-text {
     width: 100%;
   }
-  #ios-mac .imac-container .imac-text h1 {
+  #ios-mac .imac-container .imac-text h2 {
     font-size: 25px;
     margin-bottom: 22px;
   }
