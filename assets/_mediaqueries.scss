@@ -3,21 +3,18 @@
 
   #hero {
     background-size: contain;
-    height: 500px;
-    width: 100%;
-    margin-bottom: 165px;
+    @include dimension(540px, 100%);
     .hero-content {
 
       .hero-img {
-        width: 110px;
-        height: 110px;
+        @include dimension(110px, 110px);
+
         img {
-          width: 100%;
-          height: 100%;
+          @include dimension(100%, 100%);
         }
       }
       .hero-text {
-        width: 65%;
+        @include dimension(auto, 65%);
       }
     }
   }
@@ -33,7 +30,7 @@
 
       .ts-text {
         @include flex(column,center,center);
-        width: 65%;
+        @include dimension(auto,65%);
         align-self: center;
         margin-bottom: 70px;
         position: relative;
@@ -62,7 +59,7 @@
           padding-right: 35px;
 
           ul {
-            width: auto;
+            @include dimension(auto,auto);
   
             li {
               margin-bottom: 25px;
@@ -91,13 +88,13 @@
       padding-top: 50px;
       .ac-text {
         padding-bottom: 50px;
-        width: 65%;
+        @include dimension(auto,65%);
       }
 
       .ac-img {
-        width: 100%;
+        @include dimension(auto,100%);
         img {
-          width: 100%;
+          @include dimension(auto,100%);
         }
       }
     }
@@ -107,13 +104,13 @@
     .sc-container {
       padding: 30px 0 0;
       .sc-text{
-        width: 65%;
+        @include dimension(auto,65%);
       }
 
       .sc-grid {
         padding: 0;
         .sc-card {
-          width:100%;
+          @include dimension(auto,100%);
         }
       }
     }
@@ -125,20 +122,18 @@
     .logo-grid {
 
       img {
-        height: 40px;
+        @include dimension(40px,auto);
 
         &:nth-child(3) {
-          height: 30px;
+          @include dimension(30px,auto);
         }
 
         &:nth-child(4) {
-          width: 115px;
-          height: 45px;
+          @include dimension(45px,115px);
         }
 
         &:nth-child(5) {
-          width: 95px;
-          height: 23px;
+          @include dimension(23px,95px);
         }
 
       }
@@ -149,7 +144,7 @@
     .imac-container{
       padding: 50px 0 0;
       .imac-text {
-        width: 65%;
+        @include dimension(auto,65%);
       }
     }
   }

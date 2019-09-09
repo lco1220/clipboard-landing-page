@@ -7,8 +7,8 @@
 
 body,
 html {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -31,9 +31,9 @@ ul {
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
-  height: 100vh;
-  width: 100%;
   margin-bottom: 30px;
+  height: 600px;
+  width: 100%;
 }
 
 #hero .hero-content {
@@ -76,6 +76,7 @@ ul {
           justify-content: center;
   text-align: center;
   margin-bottom: 70px;
+  height: auto;
   width: 50%;
 }
 
@@ -149,12 +150,13 @@ ul {
 
 #track-snippets .ts-container .ts-text {
   text-align: center;
-  width: 50%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   margin-bottom: 70px;
   position: relative;
+  height: auto;
+  width: 50%;
 }
 
 #track-snippets .ts-container .ts-text h2 {
@@ -243,11 +245,12 @@ ul {
 
 #access-clipboard .ac-container .ac-text {
   text-align: center;
-  width: 50%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   padding-bottom: 70px;
+  height: auto;
+  width: 50%;
 }
 
 #access-clipboard .ac-container .ac-text h2 {
@@ -292,6 +295,7 @@ ul {
 
 #supercharge .sc-container .sc-text {
   text-align: center;
+  height: auto;
   width: 50%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -323,6 +327,7 @@ ul {
 }
 
 #supercharge .sc-container .sc-grid .sc-card {
+  height: auto;
   width: 400px;
 }
 
@@ -346,6 +351,7 @@ ul {
 #supercharge .sc-container .sc-grid .sc-card .card-container img {
   margin-bottom: 35px;
   height: 30px;
+  width: auto;
 }
 
 #supercharge .sc-container .sc-grid .sc-card .card-container h3 {
@@ -404,6 +410,7 @@ ul {
 
 #ios-mac .imac-container .imac-text {
   text-align: center;
+  height: auto;
   width: 50%;
   margin-bottom: 36px;
 }
@@ -473,10 +480,12 @@ footer .footer-container .footer-grid .footer-img {
 }
 
 footer .footer-container .footer-grid .footer-img img {
+  height: auto;
   width: 100%;
 }
 
 footer .footer-container .footer-grid .footer-links {
+  height: auto;
   width: 100%;
   -ms-grid-column-align: start;
       justify-self: start;
@@ -511,8 +520,8 @@ footer .footer-container .footer-grid .footer-socials a {
 }
 
 footer .footer-container .footer-grid .footer-socials a ion-icon {
-  width: 30px;
   height: 25px;
+  width: 30px;
   -webkit-transition: color .50s ease-in;
   transition: color .50s ease-in;
 }
@@ -538,19 +547,19 @@ footer .footer-container .attribution a {
 @media (max-width: 1024px) {
   #hero {
     background-size: contain;
-    height: 500px;
+    height: 540px;
     width: 100%;
-    margin-bottom: 165px;
   }
   #hero .hero-content .hero-img {
-    width: 110px;
     height: 110px;
+    width: 110px;
   }
   #hero .hero-content .hero-img img {
-    width: 100%;
     height: 100%;
+    width: 100%;
   }
   #hero .hero-content .hero-text {
+    height: auto;
     width: 65%;
   }
   #main-content {
@@ -573,6 +582,7 @@ footer .footer-container .attribution a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: auto;
     width: 65%;
     -ms-flex-item-align: center;
         align-self: center;
@@ -599,6 +609,7 @@ footer .footer-container .attribution a {
     padding-right: 35px;
   }
   #track-snippets .ts-container .ts-grid .ts-list ul {
+    height: auto;
     width: auto;
   }
   #track-snippets .ts-container .ts-grid .ts-list ul li {
@@ -619,24 +630,29 @@ footer .footer-container .attribution a {
   }
   #access-clipboard .ac-container .ac-text {
     padding-bottom: 50px;
+    height: auto;
     width: 65%;
   }
   #access-clipboard .ac-container .ac-img {
+    height: auto;
     width: 100%;
   }
   #access-clipboard .ac-container .ac-img img {
+    height: auto;
     width: 100%;
   }
   #supercharge .sc-container {
     padding: 30px 0 0;
   }
   #supercharge .sc-container .sc-text {
+    height: auto;
     width: 65%;
   }
   #supercharge .sc-container .sc-grid {
     padding: 0;
   }
   #supercharge .sc-container .sc-grid .sc-card {
+    height: auto;
     width: 100%;
   }
   #logo-group {
@@ -644,22 +660,25 @@ footer .footer-container .attribution a {
   }
   #logo-group .logo-grid img {
     height: 40px;
+    width: auto;
   }
   #logo-group .logo-grid img:nth-child(3) {
     height: 30px;
+    width: auto;
   }
   #logo-group .logo-grid img:nth-child(4) {
-    width: 115px;
     height: 45px;
+    width: 115px;
   }
   #logo-group .logo-grid img:nth-child(5) {
-    width: 95px;
     height: 23px;
+    width: 95px;
   }
   #ios-mac .imac-container {
     padding: 50px 0 0;
   }
   #ios-mac .imac-container .imac-text {
+    height: auto;
     width: 65%;
   }
   footer .footer-container {

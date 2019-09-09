@@ -4,3 +4,8 @@
   align-items: $ai;
   justify-content: $jc;
 }
+
+@mixin dimension($h,$w) {
+  height: $h;
+  width: $w;
+}

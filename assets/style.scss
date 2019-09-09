@@ -9,8 +9,7 @@
 
 body, 
 html {
-  width: 100%;
-  height: 100%;
+  @include dimension(100%,100%);
 }
 
 body {
@@ -33,15 +32,13 @@ ul {
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
-  height: 100vh;
-  width: 100%;
   margin-bottom: 30px;
+  @include dimension(600px, 100%);
 
   .hero-content {
     position: absolute;
     top: 18%;
-    height: auto;
-    width: 100%;
+    @include dimension(auto, 100%);
     @include flex(column, center, baseline);
 
     .hero-img {
@@ -52,7 +49,7 @@ ul {
       @include flex(column,center,center);
       text-align: center;
       margin-bottom: 70px;
-      width: 50%;
+      @include dimension(auto, 50%);
 
       h1 {
         color: $darkgrayishblue;
@@ -111,18 +108,17 @@ ul {
 
 #track-snippets {
   position: relative;
-  height: auto;
-  width: 100%;
+  @include dimension(auto,100%);
 
   .ts-container {
     @include flex(column,stretch,flex-start);
 
     .ts-text {
       text-align: center;
-      width: 50%;
       align-self: center;
       margin-bottom: 70px;
       position: relative;
+      @include dimension(auto,50%);
 
       h2 {
         color: $darkgrayishblue;
@@ -193,8 +189,7 @@ ul {
 
 #access-clipboard {
   position: relative;
-  height: auto;
-  width: 100%;
+  @include dimension(auto,100%);
 
   .ac-container {
     @include flex(column,center,center);
@@ -202,9 +197,9 @@ ul {
 
     .ac-text {
       text-align: center;
-      width: 50%;
       align-self: center;
       padding-bottom: 70px;
+      @include dimension(auto,50%);
 
       h2 {
         color: $darkgrayishblue;
@@ -230,8 +225,7 @@ ul {
 
 #supercharge {
   position: relative;
-  height: auto;
-  width: 100%;
+  @include dimension(auto,100%);
 
   .sc-container {
     @include flex(column,center,center);
@@ -239,7 +233,7 @@ ul {
 
     .sc-text {
       text-align: center;
-      width: 50%;
+      @include dimension(auto,50%);
       align-self: center;
       padding-bottom: 70px;
 
@@ -265,7 +259,7 @@ ul {
       padding: 0 40px;
 
       .sc-card {
-        width: 400px;
+        @include dimension(auto,400px);
 
         .card-container {
         @include flex(column,center,center);
@@ -273,7 +267,7 @@ ul {
 
           img {
             margin-bottom: 35px;
-            height: 30px;
+            @include dimension(30px,auto);
           }
 
           h3 {
@@ -301,8 +295,7 @@ ul {
 
 #logo-group {
   position: relative;
-  height: auto;
-  width: 100%;
+  @include dimension(auto,100%);
   padding: 60px 40px 0;
 
   .logo-grid {
@@ -314,10 +307,8 @@ ul {
 }
 
 #ios-mac {
-
   position: relative;
-  height: auto;
-  width: 100%;
+  @include dimension(auto,100%);
 
   .imac-container {
     @include flex(column,center,center);
@@ -325,7 +316,7 @@ ul {
 
     .imac-text {
       text-align: center;
-      width: 50%;
+      @include dimension(auto,50%);
       margin-bottom: 36px;
 
       h2 {
@@ -385,15 +376,14 @@ footer {
       align-items: center;
 
       .footer-img {
-        height: 60px;
-        width: 60px;
+        @include dimension(60px,60px);
         img {
-          width: 100%;
+          @include dimension(auto,100%);
         }
       }
 
       .footer-links {
-        width: 100%;
+        @include dimension(auto,100%);
         justify-self: start;
         align-self: start;
         ul {
@@ -420,8 +410,7 @@ footer {
           text-decoration: none;
           color: $darkgrayishblue;
           ion-icon {
-            width: 30px;
-            height: 25px;
+            @include dimension(25px,30px);
             transition: color .50s ease-in;
             &:hover {
               color: $strongcyan;
