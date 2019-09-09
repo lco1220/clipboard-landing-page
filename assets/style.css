@@ -515,6 +515,8 @@ footer .footer-container .footer-grid .footer-links ul li:hover {
 }
 
 footer .footer-container .footer-grid .footer-socials a {
+  height: 25px;
+  width: 30px;
   text-decoration: none;
   color: #4c545d;
 }

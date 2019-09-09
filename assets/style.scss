@@ -407,6 +407,7 @@ footer {
 
       .footer-socials {
         a {
+          @include dimension(25px,30px);
           text-decoration: none;
           color: $darkgrayishblue;
           ion-icon {
